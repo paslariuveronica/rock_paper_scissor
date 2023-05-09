@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#rock, #paper, #scissor {
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.result {
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-around;
+}
